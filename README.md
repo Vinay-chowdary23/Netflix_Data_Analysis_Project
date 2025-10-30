@@ -62,5 +62,7 @@ Movies are more common than TV Shows overall.
 ## Author
 
 Vinay Bollinedi
+
 Aspiring AI/ML Engineer | Data Analyst | Python Enthusiast
+
 Connect with me on [LinkedIn](https://www.linkedin.com/in/vinay-bollinedi23)
