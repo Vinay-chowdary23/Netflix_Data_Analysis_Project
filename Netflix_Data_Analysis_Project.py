@@ -7,27 +7,27 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("netflix_titles.csv")
 
 # # ========== CHECK FOR MISSING VALUES ==========
-# print("=== Missing Values in Each Column ===\n")
-# print(df.isnull().sum(), "\n")
+print("=== Missing Values in Each Column ===\n")
+print(df.isnull().sum(), "\n")
 
 # # ========== DROP MISSING VALUES ==========
-# print("=== Dropping Rows with Missing 'country', 'director', or 'release_year' ===\n")
-# df.dropna(subset=['country', 'director', 'release_year'], inplace=True)
-# print("Rows after dropping missing values:", len(df), "\n")
+print("=== Dropping Rows with Missing 'country', 'director', or 'release_year' ===\n")
+df.dropna(subset=['country', 'director', 'release_year'], inplace=True)
+print("Rows after dropping missing values:", len(df), "\n")
 
 # # ========== TYPE COUNT ==========
-# print("=== Count of Each Type (Movie/TV Show) ===\n")
-# print(df['type'].value_counts(), "\n")
+print("=== Count of Each Type (Movie/TV Show) ===\n")
+print(df['type'].value_counts(), "\n")
 
 # # ========== COUNTRY WITH MAX CONTENT ==========
-# print("=== Country with Maximum Content ===\n")
-# max_content = df['country'].value_counts().idxmax()
-# value = df['country'].value_counts().max()
-# print(f"{max_content}: {value}\n")
+print("=== Country with Maximum Content ===\n")
+max_content = df['country'].value_counts().idxmax()
+value = df['country'].value_counts().max()
+print(f"{max_content}: {value}\n")
 
 # # ========== MOST FREQUENT GENRE ==========
-# print("=== Most Frequent Genre/Category (from 'listed_in') ===\n")
-# print(df['listed_in'].mode()[0], "\n")
+print("=== Most Frequent Genre/Category (from 'listed_in') ===\n")
+print(df['listed_in'].mode()[0], "\n")
 
 # ========== TREND OF TITLES RELEASED EACH YEAR ==========
 print("=== Trend of Number of Netflix Titles Released Each Year ===\n")
