@@ -14,27 +14,27 @@ Source: [Netflix Dataset on Kaggle](https://www.kaggle.com/shivamb/netflix-shows
 
 ## Project Objectives
 
-Load and clean the dataset (handle missing values)
+❖ Load and clean the dataset (handle missing values)
 
-Compare Movies vs TV Shows
+❖ Compare Movies vs TV Shows
 
-Find which country has the most Netflix titles
+❖ Find which country has the most Netflix titles
 
-Identify the most common genres/categories
+❖ Identify the most common genres/categories
 
-Visualize the yearly release trend and top countries
+❖ Visualize the yearly release trend and top countries
 
 ## Tools & Libraries Used
 
-Python
+✦ Python
 
-Pandas
+✦ Pandas
 
-NumPy
+✦ NumPy
 
-Matplotlib
+✦ Matplotlib
 
-Seaborn
+✦ Seaborn
 
 ## Visual Outputs
 
